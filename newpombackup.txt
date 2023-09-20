@@ -7,16 +7,6 @@
   <version>1.0-SNAPSHOT</version>
   <name>DatingApp</name>
   <url>http://maven.apache.org</url>
-  <distributionManagement>
-    <repository>
-        <id>deploymentRepo</id>
-        <url>http://3.80.158.236:8081/repository/maven-releases/</url>
-    </repository>
-    <snapshotRepository>
-        <id>deploymentRepo</id>
-        <url>http://3.80.158.236:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
-  </distributionManagement>
   <dependencies>
     <!-- JUnit 4 Dependency -->
     <dependency>
@@ -40,4 +30,3 @@
     </plugins>
   </build>
 </project>
-
